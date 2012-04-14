@@ -8,3 +8,5 @@ It uses Coffeescript & jQuery packages, resulting in significantly
 fewer curly braces and semi-colons.
 
 Inspiration from @tomtheplank and siuying - thanks.
+
+You can see a live deployment at http://coffeescript-chat.meteor.com/
