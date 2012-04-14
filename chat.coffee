@@ -5,9 +5,11 @@ if Meteor.is_client
   # Export Messages model to client
   window.Messages = Messages
 
+
   # Load all documents in messages collection from Mongo
   Template.messages.messages = ->
     Messages.find({}, { sort: {time: -1} })
+
 
   # Listen for the following events on the entry template
   Template.entry.events =

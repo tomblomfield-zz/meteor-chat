@@ -1,0 +1,10 @@
+Meteor-Chat
+-----------
+
+
+Simple chat application using the new Meteor JS framework.
+
+It uses Coffeescript & jQuery packages, resulting in significantly
+fewer curly braces and semi-colons.
+
+Inspiration from @tomtheplank and siuying - thanks.
