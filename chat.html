@@ -1,0 +1,30 @@
+<head>
+  <title>Let's grab a coffee(script)</title>
+</head>
+
+<body>
+  <h3>Let's grab a coffee(script)</h3>
+
+  {{> messages}}
+
+  {{> entry}}
+</body>
+
+<template name="entry">
+  <p>
+    <input type="text" id="name" placeholder="Your name">
+    <input type="text" id="messageBox" placeholder="What do you want to say?">
+  </p>
+</template>
+
+<template name="messages">
+  <div id="chat">
+    {{#each messages}}
+      {{> message}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="message">
+  <p>{{name}}: {{message}}</p>
+</template>
